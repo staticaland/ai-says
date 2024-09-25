@@ -1,0 +1,10 @@
+[project]
+name = "ai-says"
+version = "0.1.0"
+description = "AI says many things"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ell-ai[all]>=0.0.10",
+    "flask>=3.0.3",
+]

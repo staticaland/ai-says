@@ -1,0 +1,18 @@
+check-update: false
+
+gui: false
+
+env-file: .env
+
+pretty: true
+
+auto-commits: false
+
+lint: false
+auto-lint: true
+lint-cmd: "python: uvx ruff check"
+
+auto-test: false
+
+read: [README.md]
+file: [hello.py]
